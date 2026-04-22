@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureElite | Premium Cleaning Solution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a2a6c; /* Biru Navy Mewah */
+            --accent-color: rgb(146, 121, 7); /* Warna Emas Muted */
+            --bg-light: #fdfdfd;
+            --text-dark: #2d3436;
+        }
+s
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            scroll-behavior: smooth;
+        }
+
+        /* Header / Logo Section */
+        header {
+            background-color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-weight: 300;
+            letter-spacing: 3px;
+            color: var(--accent-color);
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            margin: 0 25px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), 
+                        url('https://imogiri.bantulkab.go.id/assets/files/artikel/sedang_1547174068living-room-couch-interior-room-584399-1.jpeg');
+            background-size: cover;
+            background-position: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            max-width: 600px;
+            font-size: 1.1rem;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.4s;
+            border-radius: 0; /* Boxy look terlihat lebih eksklusif */
+        }
+
+        .hero button:hover {
+            background-color: var(--accent-color);
+            letter-spacing: 4px;
+        }
+
+        /* Features/Products Section */
+        .fitur {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 100px 50px;
+            background-color: white;
+        }
+
+        .card {
+            background: #f0f0f0;
+            padding: 40px;
+            width: 300px;
+            text-align: center;
+            border: 1px solid #f0f0f0;
+            transition: 0.5s all ease;
+        }
+
+        .card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            color: #777;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>PureElite</h1>
+    <p>seni Kebersihan</p>
+    <p style="letter-spacing: 1px; font-size: 0.7rem;"></p>
+</header>
+
+<nav>
+    <a href="#">Collections</a>
+    <a href="#">Our Story</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Elegansi Kebersihan</h2>
+    <p>Menghadirkan standar kemewahan baru untuk kebersihan rumah Anda dengan formula eksklusif dan aroma premium.</p>
+    <button>Explore More</button>
+</section>
+
+<section class="fitur">
+    <div class="card">
+        <h3>Satin Floor</h3>
+        <p>Sentuhan mewah untuk lantai marmer dan kayu. Memberikan kilau satin yang memukau tanpa noda.</p>
+    </div>
+
+    <div class="card">
+        <h3>Velvet Dish</h3>
+        <p>Lembut di tangan, namun tangguh melawan lemak. Diperkaya dengan aroma esensial kelas dunia.</p>
+    </div>
+
+    <div class="card">
+        <h3>Crystal Clear</h3>
+        <p>Transformasi kaca biasa menjadi kristal transparan dalam satu usapan. Anti-debu dan tahan lama.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 PUREELITE LUXURY HOLDINGS. ALL RIGHTS RESERVED.</p>
+    <p>Di buat oleh: Muhamad Ridwan</p>
+</footer>
+
+</body>
+</html>
